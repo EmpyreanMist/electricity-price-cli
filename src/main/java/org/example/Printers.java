@@ -20,7 +20,7 @@ public class Printers {
             for(int i = 1; i < prices.length; i++) {
                 PriceEntry p = prices[i];
                 if(p.SEK_per_kWh < lowestPrice.SEK_per_kWh) lowestPrice = p;
-                if(p.SEK_per_kWh > highestPrice.SEK_per_kWh) lowestPrice = p;
+                if(p.SEK_per_kWh > highestPrice.SEK_per_kWh) highestPrice = p;
 
             }
 
